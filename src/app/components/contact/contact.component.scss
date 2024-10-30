@@ -1,0 +1,68 @@
+.hero-header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-dark {
+    background-color: #0f172b !important;
+  }
+  
+  .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .mb-5 {
+    margin-bottom: 3rem !important;
+  }
+  
+  a {
+    color: #fea116;
+    text-decoration: none;
+  }
+  
+  .text-primary {
+    color: #fea116 !important;
+  }
+  
+  .btn-primary {
+    color: #000;
+    background-color: #fea116;
+    border-color: #fea116;
+  }
+  
+  .section-title.ff-secondary {
+    font-family: "Font Secondary", sans-serif;
+  }
+  
+  .form-floating .form-control {
+    // background-color: #1e2735;
+    // border-color: transparent;
+    color: #ffffff;
+  }
+  
+  .form-floating .form-control:focus {
+    color: #ffffff;
+    // background-color: #1e2735;
+    border-color: #fea116;
+  }
+  
+  .form-floating label {
+    color: #aaaaaa;
+  }
+  
+  .form-floating .form-control:focus + label {
+    color: #fea116;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffb33a;
+    border-color: #ffb33a;
+  }
+  @media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100%;
+    }
+}
+  

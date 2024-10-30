@@ -1,0 +1,43 @@
+.hero-header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-dark {
+    background-color: #0F172B !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.text-primary {
+    color: #FEA116 !important;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #FEA116;
+    border-color: #FEA116;
+}
+
+.border-primary {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+}
+
+a {
+    color: #FEA116;
+    text-decoration: none;
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100%;
+    }
+}
